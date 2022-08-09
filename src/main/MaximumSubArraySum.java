@@ -11,7 +11,7 @@ import static java.util.stream.Collectors.toList;
 
 public class MaximumSubArraySum {
     public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new FileReader("C:/Users/C5326069/IdeaProjects/interview-prep/src/resources/max_subarray_sum_data_1.txt"));
+        BufferedReader bufferedReader = new BufferedReader(new FileReader("./resources/max_subarray_sum_data_1.txt"));
 
         int T = Integer.parseInt(bufferedReader.readLine().trim());
         Long start = new Date().getTime();
